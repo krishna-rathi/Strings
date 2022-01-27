@@ -11,7 +11,7 @@ public static void main (String[] args) {
         arr[i]=sc.next();
     }
    
-    String prefix=arr[0]; //geeksforgeeks
+    String prefix=arr[0]; 
     for(int i=1; i<size; i++){
             while(arr[i].indexOf(prefix)!=0){
                 prefix=prefix.substring(0,prefix.length()-1);
